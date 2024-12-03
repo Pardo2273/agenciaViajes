@@ -1,0 +1,369 @@
+:root{
+    --color1: #8F0101;
+    --color2: #B81515;
+    --color3: #000000;
+    --color4: #222222;
+    --color5: #8C8C8C;
+    --color6: #D9D9D9;
+    --color7: #F5F5F5;
+    --color8: #FFFFFF;
+
+    --fuente: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
+    gap: 476px;
+    padding: 37px 0;
+}
+
+.header__logo{
+    width: 260px;
+    height: 64px;
+}
+
+.header__lista{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 17.5px 0;
+}
+
+.header__lista--elemento{
+    color: var(--color8);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: var(--fuente);
+    font-weight: 500;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+
+.seccion__figure{
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.seccion__figure--imagen{
+    width: 100%;
+    height: 620px;
+}
+
+.seccion__figcaption--informacion{
+    text-align: center;
+    font-family: var(--fuente);
+    color: var(--color4);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 0 360px;
+}
+
+.secciones__contenedor--header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.subtitulos__seccion{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--fuente);
+}
+
+.subtitulos__barra{
+    width: 180px;
+    height: 4px;
+    background: var(--color2);
+}
+
+.seccion__ofertas{
+    display: flex;
+    gap: 0 24px;
+    justify-content: center;
+}
+
+.seccion__ofertas--japon{
+    width: 588px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+    align-items: center;
+    background-image: url('../assets/Japão.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.seccion__ofertas--card{
+    height: 260px;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.seccion__ofertas--header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.seccion__ofertas--texto{
+    font-family: var(--fuente);
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--color7);
+}
+
+.seccion__ofertas--subtitulo{
+    font-family: var(--fuente);
+    color: var(--color8);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.seccion__ofertas--precio{
+    font-family: var(--fuente);
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--color8);
+}
+
+.seccion__ofertas--enlace{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--color2);
+    width: 280px;
+    height: 64px;
+    text-align: center;
+    color: var(--color8);
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: var(--fuente);
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+.seccion__ofertas--sanAndreas{
+    width: 588px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+    align-items: center;
+    background-image: url('../assets/SanAndreas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.seccion__categoria{
+    display: flex;
+    gap: 0 24px;
+    justify-content: center;
+}
+
+.seccion__categoria--figura{
+    width: 281.25px;
+    height: 220px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--color7);
+    border-radius: 8px;
+}
+
+.seccion__categoria--imagen{
+    width: 80px;
+    height: 80px;
+}
+
+.seccion__categoria--texto{
+    font-family: var(--fuente);
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--color4);
+    text-align: center;
+}
+
+.seccion__destinos{
+    width: 1200px;
+    height: 750px;
+    display: flex;
+    gap: 0 24px;
+    justify-content: center;
+}
+
+.seccion__destinos--contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.seccion__destinos--imagen{
+    width: 588px;
+    height: 452px;
+}
+
+.seccion__destino--titulo{
+    font-family: var(--fuente);
+    color: var(--color4);
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.seccion__destino--texto{
+    font-family: var(--fuente);
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.seccion__destino--enlace{
+    width: 280px;
+    height: 64px;
+    padding: 16px;
+    background-color: var(--color2);
+    border-radius: 8px;
+    font-family: var(--fuente);
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-decoration: none;
+    color: var(--color7);
+    text-align: center;
+}
+
+.seccion__testimonios{
+    display: flex;
+    width: 1200px;
+    height: 206px;
+    gap: 0 24px;
+}
+
+.seccion__testimonio--card{
+    width: 384px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.seccion__testimonio--texto{
+    font-family: var(--fuente);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--color3);
+}
+
+.seccion__testimonio--persona{
+    display: flex;
+    gap: 0 24px;
+}
+
+.seccion__testimonio--imagen{
+    width: 86px;
+    height: 86px;
+}
+
+.seccion__testimonio--puntaje{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.seccion__testimonio--nombre{
+    font-family: var(--fuente);
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--color3);
+}
+
+.seccion__testimonio--estrellas{
+    width: 176px;
+    height: 32px;
+    display: flex;
+    gap: 0 4px;
+}
+.seccion__testimonio--imagenestrella{
+    width: 32px;
+    height: 32px;
+}
+
+.seccion__figure--imagenfooter{
+    margin-top: 112px;
+}
+
+.seccion__imagen{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer{
+    height: 232px;
+    padding: 32px 120px;
+    background-color: var(--color3);
+    color: var(--color7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion__footer--informacion{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.seccion__footer--texto{
+    font-family: var(--fuente);
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.seccion__footer--redes{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.seccion__footer--textoredes{
+    font-family: var(--fuente);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+}
+
+.footer__contenedor--iconos{
+    display: flex;
+    gap: 0 8px;
+}
